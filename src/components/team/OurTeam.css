@@ -1,0 +1,207 @@
+.ourteam {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+
+  .container {
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .ourteamtitle {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+
+      p {
+        width: 100%;
+        font-size: 18px;
+        color: #2e3192;
+      }
+    }
+
+    .volunteersfounders {
+      margin-bottom: 15px;
+
+      h1 {
+        font-weight: 500;
+        font-size: 52px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+    }
+
+    .volunteerstext {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 22px;
+
+      p {
+        font-size: 18px;
+      }
+
+      p > a {
+        text-decoration: underline;
+        transition: text-decoration 0.15s ease-in;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .teamcards {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+
+      .teamcard {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #eeeef1;
+        padding-bottom: 20px;
+
+        .teamname > p {
+          font-weight: 500;
+          font-size: 18px;
+          color: gray;
+        }
+
+        .teamcontact {
+          padding-top: 6px;
+        }
+
+        .teamimg {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 960px) {
+  .ourteam {
+    padding: 30px 0;
+
+    .container {
+      width: 96%;
+
+      .ourteamtitle {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .volunteersfounders {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+        h1 {
+          font-weight: 500;
+          font-size: 24px;
+          font-family: Georgia, "Times New Roman", Times, serif;
+        }
+      }
+
+      .volunteerstext {
+        margin-bottom: 18px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .teamcards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+
+        .teamcard {
+          max-width: 370px;
+          padding-bottom: 15px;
+
+          .teamname > p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 748px) {
+  .ourteam {
+    padding: 30px 0;
+
+    .container {
+      width: 92%;
+
+      .ourteamtitle {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .volunteersfounders {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+
+        h1 {
+          font-weight: 500;
+          font-size: 24px;
+          font-family: Georgia, "Times New Roman", Times, serif;
+        }
+      }
+
+      .volunteerstext {
+        margin-bottom: 18px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+
+      .teamcards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+
+        .teamcard {
+          max-width: 370px;
+          padding-bottom: 15px;
+
+          .teamname > p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,11 @@
+.linewhite {
+  width: 100%;
+  position: relative;
+ 
+  .linewhiteimg {
+    position: absolute;
+    top:-20px;
+  
+    width: 100%;
+  }
+}

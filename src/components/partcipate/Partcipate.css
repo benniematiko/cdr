@@ -1,0 +1,224 @@
+.partcipate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #e8e8f1;
+  margin-bottom: 50px;
+
+  .container {
+    width: 86%;
+
+    .partcipatetitle {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 20px;
+      color: #2e3192;
+    }
+
+    .involved {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 22px;
+
+      h2 {
+        width: 52%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 52px;
+        font-weight: 500;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+    }
+
+    .partcipatecards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 80px;
+
+      .leftthird,
+      .middlethird,
+      .rightthird {
+        width: 100%;
+        padding-bottom: 22px;
+        padding-top: 12px;
+       
+        padding-left: 18px;
+        padding-right: 18px;
+        background-color: #fcfcfc;
+
+        h2 {
+          font-weight: 500;
+          font-size:22px;
+          padding-bottom: 12px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 18px;
+          padding-bottom: 12px;
+
+        }
+
+        
+
+        button {
+          margin-top: 12px;
+          padding: 10px 24px;
+          border: 1px solid #2e3192;
+          border-radius: 3px;
+          background-color: transparent;
+
+          font-size: 18px;
+          color: #2e3192;
+          cursor: pointer;
+          transition: background-color 0.15s ease-in;
+
+          &:hover {
+            background-color: #2e3192;
+            color: white;
+          }
+        }
+      }
+
+      /* .leftthird > h2,
+      .middlethird > h2,
+      .rightthird > h2 {
+        padding-bottom: 8px;
+      }
+      .leftthird > p,
+      .middlethird > p,
+      .rightthird > p {
+        font-size: 18px;
+        padding-bottom: 12px;
+      } */
+    }
+  }
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 960px) {
+  .partcipate {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+    .container {
+      width: 92%;
+
+      .partcipatetitle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        color: #2e3192;
+      }
+
+      .involved {
+        padding-bottom: 22px;
+
+        h2 {
+          width: 92%;
+          font-size: 26px;
+        }
+      }
+
+      .partcipatecards {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+
+        .leftthird,
+        .middlethird,
+        .rightthird {   
+          padding-right: 8px; 
+          padding-top: 8px; 
+
+          h2 {
+            font-weight: 500;
+            font-size: 20px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size:16px;
+          }
+
+          button {
+            padding: 3px 10px; 
+            font-size: 16px;   
+            
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 748px) {
+  .partcipate {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+    .container {
+      width: 92%;
+
+      .partcipatetitle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        color: #2e3192;
+      }
+
+      .involved {
+        padding-bottom: 22px;
+
+        h2 {
+          width: 92%;
+          font-size: 24px;
+        }
+      }
+
+      .partcipatecards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        .leftthird,
+        .middlethird,
+        .rightthird {   
+          padding-right: 8px; 
+          padding-top: 8px; 
+
+          h2 {
+            font-weight: 500;
+            font-size: 20px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size:16px;
+          }
+
+          button {
+            padding: 3px 10px; 
+            font-size: 16px;   
+            
+          }
+        }
+      }
+    }
+  }
+}

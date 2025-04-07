@@ -1,0 +1,144 @@
+.events {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin: 100px 0; */
+  padding: 40px 0;
+  background-color: #eeeef1;
+
+  .container {
+    width: 86%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .ourevents {
+      width: 100%;
+      margin-top: 60px;
+      color: #2e3192;
+      font-size: 18px;
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .newsevents {
+      width: 100%;
+      display: flex;
+
+      align-items: center;
+
+      margin-bottom: 20px;
+
+      .newstitle {
+        width: 100%;
+
+        h1 {
+          width: 80%;
+          font-weight: 500;
+          font-size: 52px;
+          padding-top: 30px;
+          font-family: Georgia, "Times New Roman", Times, serif;
+        }
+      }
+    }
+
+    .newstag {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+      font-size: 18px;
+
+      .latestaglinks p a {
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+          color: #2e3192;
+        }
+      }
+    }
+
+    .latestnewscard {
+      width: 100%;
+      background-color: white;
+
+      .latestmaincard {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        flex-wrap: wrap;
+     
+
+        .cardleft {
+          width: 100%;          
+          background-color: red;
+
+          .cardimg {
+            width: 100%;
+            /* object-position: contain; */
+
+            .lastestimg {
+              width: 100%;
+            }
+          }
+        }
+
+        .cardright {
+          width: 100%;
+       
+          
+          padding-left: 40px;
+
+          .cardtitle {
+            width: 100%;         
+
+            margin-top: 30px; 
+
+            h2 {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
+
+          .latestdate {
+            width: 100%;        
+            margin: 12px 0;
+
+
+          }
+
+
+          .latestdesc {
+            margin-bottom: 30px;
+          }
+
+
+          button {
+            
+            border:none;
+            /* border-radius: 24px; */
+            border-radius: 3px;
+            padding: 12px 32px;
+            background-color: #2e3192;
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.15s ease-in;
+  
+            &:hover {
+              background-color:#484de0;
+            }
+          }
+
+
+
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.lineblack {
+  width: 100%;
+  position: relative;
+
+  .lineblackimg {
+    position: absolute;
+    bottom: -50px;
+   
+  }
+}

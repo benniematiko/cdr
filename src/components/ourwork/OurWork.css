@@ -1,0 +1,724 @@
+.ourwork {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top:80px;
+  padding-bottom: 100px;
+  background-color: #2e3192;
+  position: relative;
+
+  .linewhiteimg {
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    object-fit: contain;
+    top: -10px;
+  }
+
+
+  .container {
+    width: 86%;
+    /* display: flex;  */
+    /* flex-direction: column; */
+    /* align-items: center;  */
+
+    .ourworktitle {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;  
+      padding-bottom: 12px;
+     
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .ourworkmaintitle {
+      width: 100%;
+      display: flex;    
+      justify-content: center; 
+     
+
+      h1 {
+        display: flex;
+        text-align: center;
+        font-weight: 500;
+        font-size: 52px;
+        width: 56%;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 22px;
+      }
+    }
+
+    .ourworktext {
+      width: 100%;
+      display: flex;
+      justify-content: center; 
+      align-items: center;
+      padding-bottom: 26px; 
+
+      p {
+        width: 56%;        
+        color: #fff;
+        font-size: 18px;
+      }
+    }
+
+    .ourworkcards  {
+      width: 100%;
+      display: grid;
+      grid-template-columns:repeat(4, 1fr) ;
+      gap: 30px;
+      flex-wrap: wrap; 
+      color:#fff;
+
+      row-gap: 80px;  
+      .ourworkcard {
+        max-width: 400px;
+        background-color: #242672;      
+        
+
+        .ourworkimage {         
+
+          .imgcard {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .details {
+          padding: 12px 12px 30px 12px;
+        }
+     
+
+        .ourworkdesc {
+          margin-bottom: 20px;
+        }
+
+
+        .morebtn {
+          display: flex;
+          justify-content: right;
+         
+         
+
+        }
+
+
+
+
+        .morebtn button {
+          
+          border:none;
+            /* border-radius: 24px; */
+            border-radius: 3px;
+            padding: 12px 32px;
+            background-color: #fff;
+            font-size: 16px;
+            color: #484de0;
+            cursor: pointer;
+            transition: background-color 0.15s ease-in;
+  
+            &:hover {
+              background-color:#dad0d0;
+            }
+          
+        }
+
+      }
+
+
+
+    }
+
+  } 
+
+
+
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 960px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(3, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 748px) {
+
+  .ourwork {  
+
+    .linewhiteimg {
+      top:-5px;
+    }
+
+    .container {
+      width: 92%;
+
+      .ourworkmaintitle {
+        width: 100%;       
+  
+        h1 {  
+          font-weight: 400;
+          font-size: 28px;
+          width: 92%;         
+          margin-bottom: 16px;
+        }
+      }
+
+      .ourworktext {   
+        p {
+          width: 92%;  
+          font-size: 16px;
+        }
+      }
+
+      .ourworkcards  {        
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 15px;  
+        row-gap: 40px;  
+        color: #242672;
+
+        .ourworkcard {
+          
+          background-color: #efeff7;      
+          
+  
+          .ourworkimage {         
+  
+            .imgcard {
+              width: 100%;
+              height: auto;
+            }
+          }
+  
+          .details {
+            padding: 12px 12px 30px 12px;
+          }
+       
+  
+          .ourworkdesc {
+            margin-bottom: 20px;
+          }
+  
+  
+          .morebtn {
+            display: flex;
+            justify-content: right;      
+           
+  
+          }
+  
+  
+  
+  
+          .morebtn button {
+            
+            border:none;
+              
+              padding: 8px 14px;
+              background-color: #484de0;
+              
+              color: #fff;
+              
+             
+              &:hover {
+                background-color: #292c88;
+              }
+            
+          }
+  
+        }
+  
+  
+  
+      }
+  
+
+      
+      
+    }
+  }
+}
+
+

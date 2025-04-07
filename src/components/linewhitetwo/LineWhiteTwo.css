@@ -1,0 +1,11 @@
+.linewhite {
+  width: 100%;
+  position: absolute;
+  
+  .linewhiteimg {
+ 
+    top:-60px;
+    left:0;
+    max-width: 1592px;
+  }
+}

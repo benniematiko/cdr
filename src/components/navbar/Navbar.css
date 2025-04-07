@@ -1,0 +1,145 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  padding: 15px 0;
+  z-index: 999;
+
+  .container {
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-img {
+      width: 150px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      color: white;
+      font-size: 18px;
+
+      a {
+        cursor: pointer;
+        transition: color 0.15s ease-in;
+
+        &:hover {
+          color: #ed1c24;
+        }
+
+        button {
+          border: none;
+          border-radius: 3px;
+          padding: 10px 28px;
+          font-size: 18px;
+          color: white;
+          background-color: #ed1c24;
+          cursor: pointer;
+          transition: background-color border 0.15s ease-in;
+
+          &:hover {
+            border: 1px solid #fff;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* MEDIA QUERY */
+
+/* @media screen and (max-width: 768px) {
+  .links {
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    top: 0;
+    left: 0;
+
+    box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+    transition: 0.15s ease-in;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+     z-index: 1000; 
+
+    a {
+      padding: 1rem 0;
+      font-size: 0.9rem;
+       font-weight: 600; 
+    }
+
+    .closeNavbar {
+      position: absolute;
+      background-color: red;
+      top: 1rem;
+      right: 0.5rem;
+      cursor: pointer;
+      z-index: 10000;
+      color: white; 
+      span {
+      
+        background-color: red; 
+      }
+    }
+
+    .activeNavbar {
+      left: 0;
+    }
+  }
+} */
+
+.nav-icon {
+  display: none;
+}
+
+/* 
+@media screen and (max-width: 960px) {
+
+  .links {
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    height: max-content;
+    padding: 1rem;
+    top: 0;
+    left: 0; 
+    left: -500%; 
+    opacity: 0; 
+
+    box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+    transition: 0.15s ease-in;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+     z-index: 1000;  
+
+  }
+
+
+  .links.active {
+    background-color: gray;
+    left:0;
+    opacity: 1; 
+
+  }
+
+  .nav-icon {
+    display: block;
+  }
+
+
+
+} */
